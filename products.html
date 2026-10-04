@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clothing | Stitch</title>
+<link rel="icon" href="images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body data-page="products"><div id="hdr"></div>
+<main><div class="wrap"><div class="pagehead" style="padding-bottom:20px"><div class="crumb">Home / Clothing / All clothing</div><h1>Clothing, considered.</h1><p class="small" id="cnt"></p></div>
+<div class="plp"><aside><button class="btn alt block ftoggle" id="ft" style="margin-bottom:12px">☰ Filters</button><div class="filters" id="filters"><h4>Filters <a id="clear" style="color:var(--primary);cursor:pointer;font-weight:500">Clear all</a></h4>
+<h4>Category</h4><label><input type="checkbox" data-cat="shirts" >Shirts <span class="cap" style="margin-left:auto">3</span></label><label><input type="checkbox" data-cat="tshirts" >T-Shirts <span class="cap" style="margin-left:auto">1</span></label><label><input type="checkbox" data-cat="pants" >Pants &amp; Denim <span class="cap" style="margin-left:auto">2</span></label><label><input type="checkbox" data-cat="traditional" >Traditional <span class="cap" style="margin-left:auto">1</span></label><label><input type="checkbox" data-cat="outerwear" >Outerwear <span class="cap" style="margin-left:auto">1</span></label><label><input type="checkbox" data-cat="footwear" >Footwear <span class="cap" style="margin-left:auto">1</span></label>
+<h4>Size</h4><div class="sizes"><button class="sz" type="button">XS</button><button class="sz" type="button">S</button><button class="sz" type="button">M</button><button class="sz" type="button">L</button><button class="sz" type="button">XL</button><button class="sz" type="button">XXL</button></div>
+<h4>Price <span id="prv" class="cap">₹5,000</span></h4><input id="pr" type="range" min="1000" max="5000" step="100" value="5000" aria-label="Maximum price"></div></aside>
+<div><div class="sort"><span class="small">Sort by</span><select id="sort" aria-label="Sort"><option value="rec">Recommended</option><option value="pop">Popularity</option><option value="low">Price: Low–High</option><option value="new">Newest</option></select></div>
+<div class="grid three" id="pgrid"></div><div class="more"><p class="cap" style="margin-bottom:10px">Showing 9 of 128 pieces</p><button class="btn alt">Load more</button></div></div></div></div></main>
+<div id="ftr"></div><script src="js/main.js"></script></body></html>

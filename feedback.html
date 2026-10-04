@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Feedback | Stitch</title>
+<link rel="icon" href="images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body data-page="feedback"><div id="hdr"></div>
+<main><div class="fb"><span class="eyebrow">HELP US TAILOR BETTER</span><h1 style="font-family:var(--sans);font-weight:400;font-size:clamp(32px,5vw,44px)">Share your feedback</h1><p class="small" style="margin-top:10px">Found something we can improve, or have an idea for Stitch? Tell us what's on your mind.</p>
+<form class="box" data-fb><div class="field"><label for="fe">Email address</label><input id="fe" type="email" required placeholder="you@example.com"></div><div class="field"><label for="fcat">Category</label><select id="fcat"><option>General</option><option>Bug</option><option>Feature Request</option></select></div>
+<div class="chips"><button type="button" class="chip">Bug</button><button type="button" class="chip">Feature Request</button><button type="button" class="chip on">General</button></div>
+<div class="field"><label for="desc">Description</label><textarea id="desc" rows="6" maxlength="1000" required placeholder="Describe what happened, what you expected, or the idea you'd love to see..."></textarea><div class="cap" id="dc" style="text-align:right">0 / 1000</div></div>
+<div class="small" style="margin-bottom:6px"><b>Attachment</b> (optional)</div><label class="drop" style="display:block"><div style="font-size:22px;color:var(--primary)">⇪</div><b>Drag and drop a file, or browse</b><div class="cap">PNG, JPG or PDF · Up to 10 MB</div><input type="file" accept=".png,.jpg,.jpeg,.pdf" hidden></label>
+<button class="btn block">Submit feedback</button><p class="cap" style="text-align:center;margin-top:10px">We'll only use your details to follow up about this feedback.</p><p class="ok" id="fbok" hidden>Thanks. Your feedback was sent.</p></form></div></main>
+<div id="ftr"></div><script src="js/main.js"></script></body></html>
